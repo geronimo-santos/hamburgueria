@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>hamburgueria</title>
+
+	<link rel="shortcut icon" type="imagex/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-5tjXth8BnCb7V45GtFvC5FRq-tgIyaU2Q&usqp=CAU">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="src/hamburgueria.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="cabecalho">
+		<img class="imagem-logo" src="img/imagem-logo.jpg">
+	</header>
+
+	<center><h2 class="titulo h2">Faça já o seu pedido</h2></center>
+	<img class="imagem-cabecalho" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-yShHyHx6vIRqVWderUhddcLPcGe4zXfTg&usqp=CAU" alt="imagem hamburguer">
+
+	<nav>
+		<div class="menu fixed-top uls">
+			
+			<ul class="lista-nav">
+				<div class="navegacao">
+					<li><a class="link-inicio" href="index.html">início</a></li>
+
+					<li>sobre
+						<ul>
+							<li>Quem somos</li>
+							<li>Informações</li>
+							<li>termos
+								<ul>
+									<li>Licença de uso</li>
+									<li>restrições</li>
+								</ul>
+							</li>								
+						</ul>
+					</li>
+
+
+					<li data-bs-toggle="modal" data-bs-target="#BackdropContact">contato
+					</li>
+
+					<a href="galeria.html"><li>galeria</li></a>
+
+					<li class="li-modal-cardapio" data-bs-toggle="modal" data-bs-target="#staticBackdrop">cardápio
+					</li>
+					<li><a class="link-inicio" href="https://www.google.com/maps/dir//La+Casa+Burguer/@-24.8747809,-51.6144368,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94eec5b6419fbb35:0x626ff0844a277257!2m2!1d-51.5443965!2d-24.8747972">Localização</a></li>
+				</div>
+			</ul>
+		</div>
+	</nav>
+	<div class="espaco-mobile fixed-top">
+		<button><img class="imagem_menu" src="img/imagem-menu2.jpg"></button>
+	</div>
+
+	<main>
+		<section class="container-fluid bg-light container pb-3">
+			<div class="row justify-content-center m-4 artigos" id="lanches">
+				<article class="card borda-cor-especial largura-do-card p-0 m-4 col-12 col-md-3 big cardo">
+					<img src="img/bacon-la-casa.jpg" class="card-img-top card-posicao-imagem" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Bacon la Casa</h5>
+						<h6>R$ 16,00</h6>
+						<p class="card-text">Uma boa pedida para você e toda sua família!</p>
+						<a href="https://api.whatsapp.com/send?phone=5542984447778&text=Opa%2C%20gostaria%20de%20fazer%20um%20pedido!" class="btn cor-especial-do-botao">Fazer pedido</a>
+					</div>
+				</article>
+
+				<article class="card borda-cor-especial largura-do-card p-0 m-4 col-12 col-md-3 big cardo">
+					<img src="img/burguer-la-casa.jpg" class="card-img-top card-posicao-imagem" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Burguer la Casa</h5>
+						<h6>R$ 20,00</h6>
+						<p class="card-text">Uma boa pedida para você e toda sua família!</p>
+						<a href="https://api.whatsapp.com/send?phone=5542984447778&text=Opa%2C%20gostaria%20de%20fazer%20um%20pedido!" class="btn cor-especial-do-botao">Fazer pedido</a>
+					</div>
+				</article>
+				<article class="card borda-cor-especial largura-do-card p-0 m-4 col-12 col-md-3 big cardo">
+					<img src="img/big-la-casa.jpg" class="card-img-top card-posicao-imagem" alt="">
+					<div class="card-body">
+						<h5 class="card-title">Big la Casa</h5>
+						<h6>R$ 25,00</h6>
+						<p class="card-text">Uma boa pedida para você e toda sua família!</p>
+						<a href="https://api.whatsapp.com/send?phone=5542984447778&text=Opa%2C%20gostaria%20de%20fazer%20um%20pedido!" class="btn cor-especial-do-botao">Fazer pedido</a>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+	<!-- Modal Cardápio-->
+	<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title titulo-modal" id="staticBackdropLabel">Cardápio</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<img class="imagem-cardapio" src="img/cardapio.jpg">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+					<button type="button" class="btn btn-primary">Entendido</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img src="">
+	<!-- Modal Contato-->
+	<div class="modal fade" id="BackdropContact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title titulo-modal" id="staticBackdropLabel">Contato</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Nome</label>
+							<input type="name" class="form-control">
+
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text"></div>
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Telefone</label>
+							<input type="tell" class="form-control">
+
+						</div>
+						<div class="mb-3">
+							<p>Estado</p>
+							<select>
+								<option>Paraná</option>
+								<option>Santa Catarina</option>
+								<option>Mato Grosso</option>
+								<option>Rio de Janeiro</option>
+								<option>outros</option>
+							</select>
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Receber uma cópia deste por Email</label>
+						</div>
+						<!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+					<button type="button" class="btn btn-primary">Enviar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="page-footer rodape pt-2">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text footer-title pt-1">LA CASA BURGUER</h5>
+					<h5 class="white-text footer-title pt-3 pb-3">Hamburgueria Delivery</h5>
+					<p class="grey-text text-lighten-4">contato:(42) 98444-7778</p>
+					<img class="icone-whatsapp" src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-vector.png?w=696&ssl=1"> <p class="telefone-hamburgueria">+55 42 98444-7778</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text pt-1">Siga nos nas nossas redes sociais</h5>
+					<ul class="links ul-redes">
+						<!-- instagram -->
+						<li class="link-item1"><a class="grey-text text-lighten-3 link-item" href="https://www.instagram.com/lacasa_burguer_delivery/?hl=pt-br"><img class="logo-tipo-instagram" src="https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente.png?fit=696%2C696&ssl=1"></a></li>
+
+						<!-- facebook -->
+						<li><a class="grey-text text-lighten-3 link-item" href="https://www.facebook.com/HamburgueriaDeliveryBoaVentura/?ref=page_internal"><img class="logo-tipo-fecebook" src="https://cdn-icons-png.flaticon.com/512/124/124010.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container Copyright pb-3">
+				© 2014 Copyright La Casa Burguer-2021
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/hamburgueria.js"></script>
+
+</body>		
+</html>

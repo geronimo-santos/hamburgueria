@@ -1,0 +1,531 @@
+:root{
+	--cor-fundo: rgb(34, 41, 37);
+	--cor-hover: rgb(118, 180, 145);
+	--cor-primaria: rgb(231, 241, 236);
+  --cor-background: silver;
+  --vermelho-escuro: darkred;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: silver;
+}
+nav{
+  font-family: 'Raleway', sans-serif;
+}
+.titulo-la-casa{
+  padding-top: 1rem;
+  font-size: 1.6em;
+  font-family: 'Lobster', cursive;
+}
+.menu{
+  position: static!important;
+  background-color: var(--cor-fundo);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: -90px;
+}
+.menu-inicio{
+  padding-left: 75px;
+}
+.texto-pedido{
+ font-family: 'Comfortaa', cursive;
+
+}
+.cabecalho{
+  padding-bottom: 2rem;
+
+}
+.menu ul{
+  list-style: none;
+  margin-top: 2%;
+}
+.menu ul li{
+  background-color: var(--cor-fundo);
+  color: white;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu ul li:hover{
+  color: yellow;
+  cursor: pointer;
+}
+.menu ul ul{
+  display: none;
+  margin: 0px;
+}
+.menu ul li:hover>ul{
+  cursor: pointer;
+  display: block;
+}
+.menu ul ul ul{
+  margin-left: 140px;
+  top: 0;
+  position: absolute;
+  padding-left: 17%;
+}
+.link-inicio:hover{
+  color: yellow;
+}
+.link-inicio{
+  color: #fff;
+  text-decoration: none;
+}
+.lista-li-inicio{
+  font-style: italic;
+  font-weight: bold;
+  margin-left: -30px;
+
+}
+.item{
+  list-style: none;
+
+
+}
+.item:before{
+  content: "★"
+}
+.borda-cor-especial{
+  border: solid 1px darkred;
+}
+.cor-especial-do-botao{
+  background-color: darkred;
+  color: #ffd;
+}
+.cor-especial-do-botao:hover{
+  color: silver;
+}
+.card-posicao-imagem {
+  object-fit: cover;
+  height: 200px;
+}
+.paragrafo{
+  font-weight: bold;
+}
+.cor-botao{
+  background-color: darkred; 
+  color: #fff;
+}
+.size-font{
+  font-size: 2.5em;
+}
+.container{
+  width: 90%!important;
+  background: transparent!important;
+  margin-block: 7rem;
+}
+.imagem-cardapio{
+  width: 31.1em;
+  margin: -16px;
+}
+.ul-redes{
+  list-style: none;
+}
+.imagem-cabecalho{
+  display: none;
+}
+.botao{
+  position: relative;
+  right: -820px;
+  top: -20px;
+}
+.logo-hamburguer{
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 80rem;
+}
+.link-item1{
+  margin-right: -90px;
+}
+.telefone-hamburgueria{
+  float: right;
+  /*  margin-right: 250px;*/
+}
+.imagem-logo{
+  width: 90%;
+  display: flex;
+  margin: 0 190px;
+  margin-left: 3em !important;
+}
+.logo-tipo-instagram{
+  width: 30%;
+}
+.logo-tipo-fecebook{
+  width: 40%;
+  padding-right: -10px;
+}
+.icone-whatsapp{
+  width: 6%;
+}
+.cabecalho{
+  background-color: #151324;
+}
+.carrossel{
+  width: 50%;
+}
+.carrossel-imagem{
+  object-fit: cover;
+  width: 100%;
+  height: 400px!important;
+}
+.modal-body{
+  background-color: silver!important;
+}
+.form-control{
+  border: 1px solid;
+}
+#carouselExampleIndicators{
+  margin-top: 5rem!important;
+}
+.imagem-lanche-inicio{
+  width: 50%;
+  float: right;
+  right: 5px;
+  padding-right: 5px;
+}
+.Copyright{
+  text-align: center;
+}
+.link-item{
+  text-decoration: none;
+}
+.texto-inicio, .link-conferir-pedidos{
+  padding-left: 5px;
+}
+.footer-title{
+
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+iframe{
+  border-radius: 10px;
+}
+@media screen and (min-width: 1024px){
+  .imagem-logo{
+    width: 91%!important;
+  }
+  .big{
+    width: 25%!important;
+    top: 50rem!important;
+  }
+  .card-posicao-imagem{
+    height: 220px!important;
+  }
+  .h2{
+    top: 880px!important;
+    position: absolute;
+    margin-left: 6px;
+  }
+  .menu-inicio{
+    padding: 0!important;
+  }
+}
+@media screen and (min-width: 900px){
+  .big{
+    width: 62%;
+  }
+  .telefone-hamburgueria{
+    float: right;
+    margin-right: 117px;
+  }
+  .uls{
+    margin-top: -50px;
+    height: 132px;
+  }
+  .
+}
+@media screen and (max-width: 888px){
+  .titulo{
+   position: absolute;
+   top: 10rem;
+ }
+ .big{
+  width: 72%;
+
+}
+article{
+  padding-top: 308rem!important;
+}
+.cardo{
+  margin-top: 30rem;
+}
+}
+@media screen and (min-width: 718px){
+  .h2{
+    top: 672px;
+    position: absolute;
+    margin-left: 6px;
+  }
+  .li-modal-cardapio{
+    margin-left: -13px!important;
+  }
+  .big{
+    width: 62%;
+
+  }
+
+  iframe{
+    width: 700px!important;
+  }
+
+}
+
+@media screen and (min-width: 580px){
+ .card-img-top{
+  width: 100%;
+}
+.titulo{
+  top: 642px;
+  position: relative;
+  margin-left: 6px;
+}
+.cabecalho{
+  position: absolute!important;
+  top: 128px!important;
+}
+.card-posicao-imagem{
+  height: 340px;
+}
+.card-body{
+  padding-top: 0px;
+}
+.rodape{
+  position: relative;
+  top: 46rem;
+}
+.rodape-inicio{
+  position: static;
+}
+footer{
+  position: absolute;
+}
+
+} 
+@media screen and (min-width: 480px){
+
+
+  .h2{
+    top: 700px;
+    margin: 0 0 0 8.5rem;
+  }
+  .menu ul{
+    padding-left: 75px;
+  }
+}
+
+
+@media screen and (min-width: 375px){
+  .cabecalho{
+    position: absolute;
+    top: 60px;
+  }
+  .li-modal-cardapio{
+    /*margin-left: 87px;*/
+  }
+  .big{
+    top: 12rem;
+    width: 17rem
+  }
+  .imagem-logo {
+    width: 76%;
+  }
+  h2{
+    top: 611px;
+    position: relative;
+    margin-left: 6px
+  }
+  article{
+    position: static;
+  }
+  footer{
+    margin-bottom: -120px;
+  }
+  .titulo{
+    top: 15rem;
+  }
+}
+
+@media screen and (max-width: 377px){
+  .imagem-cabecalho{
+    display: block;
+    margin: 0 40px;
+    position: absolute;
+  }
+  .navegacao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .imagem-logo {
+    display: none;
+  }
+  .artigos{
+    padding-top: 6rem;
+  }
+  .cabecalho{
+    display: none;
+  }
+  h2{
+    top: 300px;
+    position: absolute;
+    margin-left: 73px;
+  }
+  ul {
+    padding-left: 0rem;
+  }
+  .h2{
+    position: absolute;
+    top: 800px;
+  }
+  .imagem-cardapio{
+    width: 21.4em;
+    margin: -16px;
+  }
+  .big{
+    width: 100%;
+    object-fit: cover;
+    top: 180px;
+  }
+  .menu{
+    padding-left: 4rem;
+  }
+  footer{
+    margin-bottom: -120px;
+  }
+}
+@media screen and (max-width: 414px){
+  iframe{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.margem-botao{
+  display: block;
+  width: 45px;
+  border-radius: 25px;
+  position: absolute;
+  margin-right: -5px;
+  
+}
+@media screen and (max-width: 450px){
+  .imagem-cardapio {
+    width: 377px;
+    margin: -16px;
+  }
+  .titulo{
+    position: absolute;
+    top: 18.5rem;
+    right: 3em;
+  }
+  .lista-li-inicio{
+    margin: 0 0 0 2px;
+  }
+  .imagens{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titulo-galeria {
+    position: absolute;
+    top: 3rem;
+    right: 118px !important;
+    left: 1rem;
+    font-family: 'Lobster', cursive;
+  }
+  .min{
+    padding-top: 6rem!important;
+  }
+}
+
+nav{
+ display: none;
+ transition: 3s ease-in-out;
+}
+.imagem_menu{
+  display: block!important;
+  width: 45px!important;
+  border-radius: 25px!important;
+  position: absolute!important;
+  right: 10px!important;
+  margin-top: -5px;
+}
+
+.telefone-hamburgueria{
+ display: flex;
+ width: 300px; 
+}
+.whatsapp_style p{
+ display: flex;
+ width: 287px;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+  .imagem-cardapio{
+    width: 113%;
+  }
+}
+
+
+@media screen and (min-width: 414px){
+  iframe{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 500px){
+  iframe{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+
+.block{
+  display: block;
+}
+
+.hidden{
+  display: none;
+}
+
+footer{
+  background-image: url('https://img.elo7.com.br/product/zoom/294A881/fundo-fotografico-em-tecido-textura-cinza-escura-2-60x1-50m-fundos-fotograficos-personalizados.jpg');
+  color: white;
+  background-color: black;
+  width: 100%;
+}

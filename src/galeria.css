@@ -1,0 +1,399 @@
+.box span{
+	font-size: 1.2em;
+	background-color: yellow;
+	color: black;
+	border-radius: 5px;
+	position: absolute;
+	left:94%;
+	top:0px;
+	padding: 1px;
+}
+nav{
+	background-size: 120%;
+	height: 0px;
+	overflow: hidden;
+	background-image: url("http://1.bp.blogspot.com/_fArJIcSV41k/SG31H0-mz6I/AAAAAAAABlk/KosjxyZ6wFE/s400/kungfupanda2_div.jpg");
+	color: white;
+	background-position-x:-6px; 
+	background-position-y: -28px;
+	background-repeat: no-repeat;
+}
+
+nav a {
+	font-size: 110%;
+	display: flex;
+	text-transform: uppercase;
+	color: white;
+	text-decoration:none;
+	padding: 2em;
+	cursor: pointer;
+}
+.mostrar {
+	width: 25%;
+	border-radius: 10px;
+	
+	top: 0px;
+	position: absolute;
+	
+	margin-top: 25px; 
+	height: 262px !important;
+	transition: 2s;
+	margin-left: 752px;
+}
+nav a:hover {
+	color: #0bdbe6;
+}
+.box span:hover{
+	background-color: red;
+	color: white;
+	font-size: 1.2em;
+	transition: 1s;
+
+}
+
+.box span:active{
+	background-color: green;
+	color: blue;
+}
+
+h1{
+	font-size: 2rem;
+	text-align: center;
+}
+.paragrafo-galery{
+	padding-top: 0.5rem;
+	font-size: 1.55rem;
+	line-height: normal;
+	margin: auto 11rem;
+
+}
+.cabecalho-galery{
+	background-color: #d3d923;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*==================== css galeria ======================*/
+ul{
+	width: 880px;
+	list-style: none;
+	display: flex;
+	margin: 100px auto;
+	flex-wrap: wrap;
+}
+li{
+	width: 33%;
+}
+.min{
+	width: 200px;
+	padding: 10px;
+	padding-top: 3rem;
+}
+.min:hover{
+	position: absolute;
+	width: 13.7rem;
+	transition: 1s;
+}
+.lbox{
+	visibility: hidden;
+	opacity: 0;
+}
+.lbox:target{
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(10,10,10,.7);
+	position: fixed;
+}
+.box_img{
+	width: 1000px;
+	margin: 150px auto;
+}
+.btn{
+	color: #fff;
+	font-family: 'Arial';
+	text-decoration: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+
+}
+#prev{
+	left: 5%;
+	top: 45%;
+}
+#next{
+	right: 5%;
+	top: 45%
+}
+#close{
+	top: 2%;
+	right: 2%;
+	left: 0;
+}
+
+#prev:hover{
+	color: #6530e3;
+	transition: 0.5s;
+	
+}
+#next:hover{
+	color: green;
+	transition: 0.5s;
+}
+#close:hover{
+	background-color: red;
+	border-radius: 10px;
+	width: 2em;
+	transition: 0.5s;
+	
+}
+#close:active{
+	background-color: green;
+	color: blue;
+	transition: 1s;
+}
+
+.box_img img{
+	opacity: 0;
+}
+.lbox:target .box_img img{
+	opacity: 1;
+	transition: opacity .4s linear
+}
+.lbox:target .box_img #lanche1{
+	width: 67%;
+	position: absolute;
+	right: 162px;
+	height: 640px;
+	top: 5px;
+}
+
+.lbox:target .box_img #lanche2{
+	width: 60%;
+	position: absolute;
+	top: 70px;
+	height: 500px;
+}
+
+.lbox:target .box_img #lanche3{
+	width: 60%;
+	position: absolute;
+	top: 23.7px;
+	right: 190px;
+}
+
+.lbox:target .box_img #lanche4{
+	width: 50%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 237px;
+	
+}
+
+.lbox:target .box_img #lanche5{
+	width: 50%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 237px;
+	
+	
+}
+.lbox:target .box_img #lanche6{
+	width: 52%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 237px;
+
+}
+.lbox:target .box_img #lanche7{
+	width: 70%;
+	height: 670px;
+	position: absolute;
+	right: 148px;
+	top: 0;
+}
+
+.lbox:target .box_img #lanche8{
+	width: 50%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 245px;
+}
+.lbox:target .box_img #lanche9{
+	width: 53%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 237px;
+}
+.lbox:target .box_img #lanche10{
+	width: 80%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 100px;	
+}
+.lbox:target .box_img #lanche11{
+	width: 80%;
+	position: absolute;
+	top: 11px;
+	height: 627px;
+	right: 100px;
+}
+.lbox:target .box_img #lanche12{
+	width: 75%;
+	height: auto;
+	position: absolute;
+	right: 126px;
+	top: 115px;
+}
+
+.imagem-lanche-galeria{
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 205px;
+	top: 100px;
+}
+
+.imagem-1:target{
+	width: 72%;
+}
+.titulo-galeria{
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	left: 1rem;
+	font-family: 'Lobster', cursive;
+}
+button{
+	position: absolute;
+	width: 18%;
+    top: 5px;
+    background-color: black;
+    height: 5%;
+    color: yellow;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+button:hover{
+	background-color: darkred;
+	color: white;
+	transition: .2s ease-in-out;
+}
+
+
+
+/*================= responsividade ======================*/
+
+
+@media screen and (max-width: 450px){
+	.lbox:target .box_img #lanche1{
+		width: 56%;
+		position: absolute;
+		right: 83px;
+		height: 294px;
+		top: 120px;
+	}
+
+	.lbox:target .box_img #lanche2{
+		width: 60%;
+		position: absolute;
+		top: 80px;
+		height: 380px;
+		right: 80px;
+	}
+
+	.lbox:target .box_img #lanche3{
+		width: 60%;
+		position: absolute;
+		top: 163px;
+		right: 80px;
+	}
+
+	.lbox:target .box_img #lanche4{
+		width: 60%;
+		position: absolute;
+		top: 111px;
+		height: 337px;
+		right: 77px;
+
+	}
+
+	.lbox:target .box_img #lanche5{
+		width: 60%;
+		position: absolute;
+		top: 93px;
+		height: 367px;
+		right: 77px;
+
+	}
+	.lbox:target .box_img #lanche6{
+		width: 52%;
+		position: absolute;
+		top: 81px;
+		height: 397px;
+		right: 97px;
+
+	}
+	.lbox:target .box_img #lanche7{
+		width: 70%;
+		height: 430px;
+		position: absolute;
+		right: 58px;
+		top: 61px;
+	}
+
+	.lbox:target .box_img #lanche8{
+		width: 60%;
+		position: absolute;
+		top: 87px;
+		height: 377px;
+		right: 75px;
+	}
+	.lbox:target .box_img #lanche9{
+		width: 53%;
+		position: absolute;
+		top: 84px;
+		height: 367px;
+		right: 92px;
+	}
+	.lbox:target .box_img #lanche10{
+		width: 65%;
+		position: absolute;
+		top: 111px;
+		height: 337px;
+		right: 68px;
+	}
+	.lbox:target .box_img #lanche11{
+		width: 70%;
+		position: absolute;
+		top: 131px;
+		height: 287px;
+		right: 60px;
+	}
+	.lbox:target .box_img #lanche12{
+		width: 65%;
+		height: auto;
+		position: absolute;
+		right: 67px;
+		top: 205px;
+	}
+
+	.imagem-lanche-galeria{
+		width: auto;
+		height: auto;
+		position: absolute;
+		right: 205px;
+		top: 100px;
+	}	
+}

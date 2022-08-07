@@ -1,0 +1,1 @@
+https://api.whatsapp.com/send?phone=5542984447778&text=Opa%2C%20gostaria%20de%20fazer%20um%20pedido!
